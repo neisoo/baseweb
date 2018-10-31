@@ -1,0 +1,98 @@
+http://content.abcmouse.cn/Book/12261/snd_counting_1_to_10_at_the_zoo_complete_01.mp3
+http://content.abcmouse.cn/Book/12261/snd_counting_1_to_10_at_the_zoo_complete_01.ogg
+http://content.abcmouse.cn/Book/12261/snd_counting_1_to_10_at_the_zoo_complete_01.m4a
+http://content.abcmouse.cn/Book/12261/snd_counting_1_to_10_at_the_zoo_complete_01_slow.mp3
+http://content.abcmouse.cn/Book/12261/snd_counting_1_to_10_at_the_zoo_complete_01_slow.ogg
+http://content.abcmouse.cn/Book/12261/snd_counting_1_to_10_at_the_zoo_complete_01_slow.m4a
+
+http://content.abcmouse.cn/Book/12261/img_front_cover.png
+http://content.abcmouse.cn/Book/12261/img_page_0.png
+http://content.abcmouse.cn/Book/12261/img_page_1.png
+http://content.abcmouse.cn/Book/12261/img_page_2.png
+http://content.abcmouse.cn/Book/12261/img_page_2_text.png
+http://content.abcmouse.cn/Book/12261/img_page_3.png
+http://content.abcmouse.cn/Book/12261/img_page_3_text.png
+http://content.abcmouse.cn/Book/12261/img_page_4.png
+http://content.abcmouse.cn/Book/12261/img_page_4_text.png
+http://content.abcmouse.cn/Book/12261/img_page_5.png
+http://content.abcmouse.cn/Book/12261/img_page_5_text.png
+http://content.abcmouse.cn/Book/12261/img_page_6.png
+http://content.abcmouse.cn/Book/12261/img_page_6_text.png
+http://content.abcmouse.cn/Book/12261/img_page_7.png
+http://content.abcmouse.cn/Book/12261/img_page_7_text.png
+http://content.abcmouse.cn/Book/12261/img_page_8.png
+http://content.abcmouse.cn/Book/12261/img_page_8_text.png
+http://content.abcmouse.cn/Book/12261/img_page_9.png
+http://content.abcmouse.cn/Book/12261/img_page_9_text.png
+http://content.abcmouse.cn/Book/12261/img_page_10.png
+http://content.abcmouse.cn/Book/12261/img_page_10_text.png
+http://content.abcmouse.cn/Book/12261/img_page_11.png
+http://content.abcmouse.cn/Book/12261/img_page_11_text.png
+http://content.abcmouse.cn/Book/12261/img_page_12.png
+http://content.abcmouse.cn/Book/12261/img_page_12_text.png
+http://content.abcmouse.cn/Book/12261/img_page_13.png
+http://content.abcmouse.cn/Book/12261/img_page_13_text.png
+http://content.abcmouse.cn/Book/12261/img_page_14.png
+http://content.abcmouse.cn/Book/12261/img_page_14_text.png
+http://content.abcmouse.cn/Book/12261/img_page_15.png
+http://content.abcmouse.cn/Book/12261/img_page_15_text.png
+http://content.abcmouse.cn/Book/12261/img_page_16.png
+http://content.abcmouse.cn/Book/12261/img_page_16_text.png
+http://content.abcmouse.cn/Book/12261/img_page_17.png
+http://content.abcmouse.cn/Book/12261/img_page_17_text.png
+http://content.abcmouse.cn/Book/12261/img_page_18.png
+http://content.abcmouse.cn/Book/12261/img_page_18_text.png
+http://content.abcmouse.cn/Book/12261/img_page_19.png
+http://content.abcmouse.cn/Book/12261/img_page_19_text.png
+http://content.abcmouse.cn/Book/12261/img_page_20.png
+http://content.abcmouse.cn/Book/12261/img_page_20_text.png
+http://content.abcmouse.cn/Book/12261/img_page_21.png
+http://content.abcmouse.cn/Book/12261/img_page_21_text.png
+http://content.abcmouse.cn/Book/12261/img_page_22.png
+http://content.abcmouse.cn/Book/12261/img_page_22_text.png
+http://content.abcmouse.cn/Book/12261/img_page_23.png
+http://content.abcmouse.cn/Book/12261/img_page_23_text.png
+http://content.abcmouse.cn/Book/12261/img_page_24.png
+http://content.abcmouse.cn/Book/12261/img_page_24_text.png
+http://content.abcmouse.cn/Book/12261/img_page_25.png
+http://content.abcmouse.cn/Book/12261/img_page_back.png
+
+
+
+	Line 427: 					"image_text": "",
+	Line 444: 					"image_path": "\/Book\/12261\/img_page_15.png",
+	Line 445: 					"image_text_path": "\/Book\/12261\/img_page_15_text.png",
+	Line 446: 					"image_text": "",
+	Line 468: 					"image_path": "\/Book\/12261\/img_page_16.png",
+	Line 469: 					"image_text_path": "\/Book\/12261\/img_page_16_text.png",
+	Line 470: 					"image_text": "",
+	Line 487: 					"image_path": "\/Book\/12261\/img_page_17.png",
+	Line 488: 					"image_text_path": "\/Book\/12261\/img_page_17_text.png",
+	Line 489: 					"image_text": "",
+	Line 516: 					"image_path": "\/Book\/12261\/img_page_18.png",
+	Line 517: 					"image_text_path": "\/Book\/12261\/img_page_18_text.png",
+	Line 518: 					"image_text": "",
+	Line 535: 					"image_path": "\/Book\/12261\/img_page_19.png",
+	Line 536: 					"image_text_path": "\/Book\/12261\/img_page_19_text.png",
+	Line 537: 					"image_text": "",
+	Line 564: 					"image_path": "\/Book\/12261\/img_page_20.png",
+	Line 565: 					"image_text_path": "\/Book\/12261\/img_page_20_text.png",
+	Line 566: 					"image_text": "",
+	Line 583: 					"image_path": "\/Book\/12261\/img_page_21.png",
+	Line 584: 					"image_text_path": "\/Book\/12261\/img_page_21_text.png",
+	Line 585: 					"image_text": "",
+	Line 612: 					"image_path": "\/Book\/12261\/img_page_22.png",
+	Line 613: 					"image_text_path": "\/Book\/12261\/img_page_22_text.png",
+	Line 614: 					"image_text": "",
+	Line 631: 					"image_path": "\/Book\/12261\/img_page_23.png",
+	Line 632: 					"image_text_path": "\/Book\/12261\/img_page_23_text.png",
+	Line 633: 					"image_text": "",
+	Line 660: 					"image_path": "\/Book\/12261\/img_page_24.png",
+	Line 661: 					"image_text_path": "\/Book\/12261\/img_page_24_text.png",
+	Line 662: 					"image_text": "",
+	Line 719: 					"image_path": "\/Book\/12261\/img_page_25.png",
+	Line 720: 					"image_text_path": "",
+	Line 721: 					"image_text": "",
+	Line 732: 					"image_path": "\/Book\/12261\/img_page_back.png",
+	Line 733: 					"image_text_path": "",
+	Line 734: 					"image_text": "",

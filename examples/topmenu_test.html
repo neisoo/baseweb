@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>06-置顶菜单</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(window).scroll(function() {
+                var nowTop = $(document).scrollTop();
+                if (nowTop>200) {
+                    // 注意是 “，” 
+                    $('.menu').css({
+                        position:'fixed',
+                        top:0,
+                        // 定位 一半
+                        left:'50%',
+                        marginLeft:-480,
+                    })
+
+                    $('.menu_pos').show();
+                }else{
+                    $('.menu').css({
+                        // 对原来的样式进行覆盖
+                        position:'static',
+                        marginLeft:'auto',
+                    })
+
+                    $('.menu_pos').hide();
+                }
+            });
+        })
+    </script>
+    <style type="text/css">
+        body{margin:0px;}
+        .logo_bar{
+            width:960px;
+            height:200px;
+            background-color:#f0f0f0;
+            margin:0 auto;
+
+        }
+        .menu,.menu_pos{
+            width:960px;
+            height:50px;
+            margin:0 auto;
+            background-color:gold;
+            text-align:center;
+            line-height:50px;
+        }
+        .menu_pos{
+            display:none;
+        }
+
+        .down_con{
+            width:960px;
+            height:1800px;
+            margin:0 auto;
+        }
+
+        .down_con p{
+            margin-top:100px;
+            text-align:center;
+        }
+        .totop{
+            width:50px;
+            height:50px;
+            background:url(images/up.png) center center no-repeat #000;
+            border-radius:50%;
+            position:fixed;
+            right:50px;
+            bottom:50px;
+            display:none;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="logo_bar">顶部logo</div>
+    <div class="menu">置顶菜单</div>
+    <div class="menu_pos"></div>
+    <div class="down_con">
+        <p style="color:red">网站主内容</p>
+        <p>网站主内容</p>
+        <p>网站主内容</p>
+        <p>网站主内容</p>
+        <p>网站主内容</p>
+    </div>
+    <a href="javascript:;" class="totop"></a>
+</body>
+</html>

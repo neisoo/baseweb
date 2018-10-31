@@ -1,0 +1,149 @@
+/*
+    Created on : Jun 25, 2015, 2:43:37 PM
+    Author     : Arian Khosravi <arian.khosravi@aofl.com>
+*/
+@font-face {
+    font-family: 'aofl-main-primary';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/artwork/fonts/aofl_century_gothic_regular_webfont.eot');
+    src: url('/artwork/fonts/aofl_century_gothic_regular_webfont.eot?#iefix') format('embedded-opentype'),
+        url('/artwork/fonts/aofl_century_gothic_regular_webfont.woff') format('woff'),
+        url('/artwork/fonts/aofl_century_gothic_regular_webfont.ttf') format('truetype'),
+        url('/artwork/fonts/aofl_century_gothic_regular_webfont.svg#AofLCenturyGothic') format('svg');
+}
+@font-face {
+    font-family: 'aofl-main-primary';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/artwork/fonts/aofl_century_gothic_bold_webfont.eot');
+    src: url('/artwork/fonts/aofl_century_gothic_bold_webfont.eot?#iefix') format('embedded-opentype'),
+        url('/artwork/fonts/aofl_century_gothic_bold_webfont.woff') format('woff'),
+        url('/artwork/fonts/aofl_century_gothic_bold_webfont.ttf') format('truetype'),
+        url('/artwork/fonts/aofl_century_gothic_bold_webfont.svg#AofLCenturyGothicBold') format('svg');
+}
+@font-face {
+    font-family: 'aofl-main-primary';
+    font-weight: 400;
+    font-style: italic;
+    src:  url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.eot');
+    src:  url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.eot?#iefix') format('embedded-opentype'),
+        url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.woff') format('woff'),
+        url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.ttf') format('truetype'),
+        url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.svg#AofLCenturyGothic') format('svg');
+}
+@font-face {
+    font-family: 'aofl-tagline-primary';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/artwork/fonts/aofl_sixpack_webfont.eot');
+    src: url('/artwork/fonts/aofl_sixpack_webfont.eot?#iefix') format('embedded-opentype'),
+        url('/artwork/fonts/aofl_sixpack_webfont.woff') format('woff'),
+        url('/artwork/fonts/aofl_sixpack_webfont.ttf') format('truetype'),
+        url('/artwork/fonts/aofl_sixpack_webfont.svg#AofLSixPack') format('svg');
+}
+
+@font-face { /* loading under a different name because games fonts should not change */
+    font-family: 'aofl-games-century-gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/artwork/fonts/aofl_century_gothic_regular_webfont.eot');
+    src: url('/artwork/fonts/aofl_century_gothic_regular_webfont.eot?#iefix') format('embedded-opentype'),
+        url('/artwork/fonts/aofl_century_gothic_regular_webfont.woff') format('woff'),
+        url('/artwork/fonts/aofl_century_gothic_regular_webfont.ttf') format('truetype'),
+        url('/artwork/fonts/aofl_century_gothic_regular_webfont.svg#AofLCenturyGothic') format('svg');
+}
+@font-face {
+    font-family: 'aofl-games-century-gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/artwork/fonts/aofl_century_gothic_bold_webfont.eot');
+    src: url('/artwork/fonts/aofl_century_gothic_bold_webfont.eot?#iefix') format('embedded-opentype'),
+        url('/artwork/fonts/aofl_century_gothic_bold_webfont.woff') format('woff'),
+        url('/artwork/fonts/aofl_century_gothic_bold_webfont.ttf') format('truetype'),
+        url('/artwork/fonts/aofl_century_gothic_bold_webfont.svg#AofLCenturyGothicBold') format('svg');
+}
+@font-face {
+    font-family: 'aofl-games-century-gothic';
+    font-weight: 400;
+    font-style: italic;
+    src:  url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.eot');
+    src:  url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.eot?#iefix') format('embedded-opentype'),
+        url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.woff') format('woff'),
+        url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.ttf') format('truetype'),
+        url('/artwork/fonts/aofl_century_gothic_regular_italic_webfont.svg#AofLCenturyGothic') format('svg');
+}
+@font-face {
+    font-family: 'games-aofl-sixpack';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/artwork/fonts/aofl_sixpack_webfont.eot');
+    src: url('/artwork/fonts/aofl_sixpack_webfont.eot?#iefix') format('embedded-opentype'),
+        url('/artwork/fonts/aofl_sixpack_webfont.woff') format('woff'),
+        url('/artwork/fonts/aofl_sixpack_webfont.ttf') format('truetype'),
+        url('/artwork/fonts/aofl_sixpack_webfont.svg#AofLSixPack') format('svg');
+}
+@font-face {
+    font-family: 'abcmouse-sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-regular-webfont.eot');
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-regular-webfont.woff') format('woff'), url('/artwork/fonts/abcmouse_sans/abcmousesans-regular-webfont.woff2') format('woff2'), url('/artwork/fonts/abcmouse_sans/abcmousesans-regular-webfont.ttf') format('truetype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-regular-webfont.svg#AbcmousesansRegularWebfont') format('svg');
+}
+@font-face {
+    font-family: 'abcmouse-sans';
+    font-weight: 400;
+    font-style: italic;
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-regularit-webfont.eot');
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-regularit-webfont.eot?#iefix') format('embedded-opentype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-regularit-webfont.woff') format('woff'), url('/artwork/fonts/abcmouse_sans/abcmousesans-regularit-webfont.woff2') format('woff2'), url('/artwork/fonts/abcmouse_sans/abcmousesans-regularit-webfont.ttf') format('truetype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-regularit-webfont.svg#AbcmousesansRegularItWebfont') format('svg');
+}
+@font-face {
+    font-family: 'abcmouse-sans';
+    font-weight: 600;
+    font-style: normal;
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-semibold-webfont.eot');
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-semibold-webfont.woff') format('woff'), url('/artwork/fonts/abcmouse_sans/abcmousesans-semibold-webfont.woff2') format('woff2'), url('/artwork/fonts/abcmouse_sans/abcmousesans-semibold-webfont.ttf') format('truetype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-semibold-webfont.svg#AbcmousesansSemiBoldWebfont') format('svg');
+}
+@font-face {
+    font-family: 'abcmouse-sans';
+    font-weight: 600;
+    font-style: italic;
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-semiboldit-webfont.eot');
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-semiboldit-webfont.eot?#iefix') format('embedded-opentype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-semiboldit-webfont.woff') format('woff'), url('/artwork/fonts/abcmouse_sans/abcmousesans-semiboldit-webfont.woff2') format('woff2'), url('/artwork/fonts/abcmouse_sans/abcmousesans-semiboldit-webfont.ttf') format('truetype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-semiboldit-webfont.svg#AbcmousesansSemiBoldItWebfont') format('svg');
+}
+@font-face {
+    font-family: 'abcmouse-sans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-bold-webfont.eot');
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-bold-webfont.woff') format('woff'), url('/artwork/fonts/abcmouse_sans/abcmousesans-bold-webfont.woff2') format('woff2'), url('/artwork/fonts/abcmouse_sans/abcmousesans-bold-webfont.ttf') format('truetype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-bold-webfont.svg#AbcmousesansBoldWebfont') format('svg');
+}
+@font-face {
+    font-family: 'abcmouse-sans';
+    font-weight: 700;
+    font-style: italic;
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-boldit-webfont.eot');
+    src: url('/artwork/fonts/abcmouse_sans/abcmousesans-boldit-webfont.eot?#iefix') format('embedded-opentype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-boldit-webfont.woff') format('woff'), url('/artwork/fonts/abcmouse_sans/abcmousesans-boldit-webfont.woff2') format('woff2'), url('/artwork/fonts/abcmouse_sans/abcmousesans-boldit-webfont.ttf') format('truetype'), url('/artwork/fonts/abcmouse_sans/abcmousesans-boldit-webfont.svg#AbcmousesansBoldItWebfont') format('svg');
+}
+
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'aofl-main-primary', Arial, Helvetica, 'Heiti SC','黑体-简','STXihei','华文细黑','STHeiti','华文黑体','Microsoft YaHei','微软雅黑体',“Lantinghei SC,“兰亭黑-简”,'SimHei','黑体',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.aofl-font-tagline {
+    font-family: 'aofl-tagline-primary', 'Heiti SC','黑体-简','STXihei','华文细黑','STHeiti','华文黑体','Microsoft YaHei','微软雅黑体',“Lantinghei SC,“兰亭黑-简”,'SimHei','黑体',sans-serif;
+    font-weight: 400;
+}
+
+.games-aofl-century {
+    font-family: 'aofl-games-century-gothic', Arial, Helvetica, sans-serif;
+}
+.games-aofl-sixpack {
+    font-family: 'games-aofl-sixpack';
+}

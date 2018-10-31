@@ -1,0 +1,683 @@
+.bookBg
+{
+	max-width: 900px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	background: url('/artwork/html5/bookplayer/theme/book_bg.jpg') repeat;
+	overflow: hidden;
+}
+
+.centerCoverClosed .flip
+{
+    left: 382px;
+    top: 11px;
+    background: url('/artwork/html5/bookplayer/theme/bookborder/centerClosedCoverFlipped.png') no-repeat;
+}
+
+/* footer */
+.hudControl
+{
+	width: 64px;
+	height: 29px;
+	display: block;
+	position: absolute;
+	top: -21px;
+	left: 50%;
+	margin-left: -30px;
+	z-index: 10;
+	-webkit-transition-property: background;
+	transition-property: background;
+	-webkit-transition-duration: 1s;
+	transition-duration: 1s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	background: url('/artwork/html5/bookplayer/theme/hud_bg_control.png') repeat;
+	-webkit-backface-visibility: hidden;
+}
+
+.hudControl i
+{
+	width: 64px;
+	height: 29px;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+	background: url('/artwork/html5/bookplayer/theme/arrow_down.png') no-repeat center center;
+	-webkit-transition:all 350ms ease-out;
+	transition:all 350ms ease-out;
+	-webkit-backface-visibility: hidden;
+}
+
+#hud.hide i
+{
+	-webkit-transform: rotate(180deg) ;
+	-ms-transform: rotate(180deg) ;
+	transform: rotate(180deg) ;
+}
+
+.hudControl .hide
+{
+  width: 64px;
+  height: 1px;
+}
+
+.hudControl .show
+{
+  width: 64px;
+  height: 29px;
+}
+
+#hud
+{
+	z-index: 101;
+	width: 900px;
+	height: 88px;
+	top: auto;
+	bottom: 0;
+	border-radius: 0;
+	background: url('/artwork/html5/bookplayer/theme/hud_bg_bookplayer_lg.png') repeat;
+	-webkit-transition:all 500ms ease-out;
+	transition:all 500ms ease-out;
+}
+
+#hud.hide
+{
+		top:auto;
+	bottom:-80px;
+}
+
+.HUDButton
+{
+	width: 61px;
+	height: 61px;
+	top: 15px;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transition:all 600ms ease-out;
+	transition:all 600ms ease-out;
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+.hide .HUDButton
+{
+	top: 500px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition:all 400ms ease-out;
+	transition:all 400ms ease-out;
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+#playPauseCheckbox
+{
+	left: 15px;
+}
+
+#playPauseCheckbox .playPauseButton
+{
+	width: 61px;
+	height: 61px;
+}
+
+.bookProgressSlider
+{
+	width: 460px;
+	top: 20px;
+	left: 110px;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+	pointer-events: auto !important;
+}
+
+.backgroundForegroundAnimation
+{
+	-webkit-animation: clipAnimation 500ms;
+	animation: clipAnimation 500ms;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes clipAnimation
+{
+  0% {
+  	opacity: 1;
+  	filter: alpha(opacity=100);
+  	width: 0%;
+  }
+  100% {
+  	opacity: 1;
+  	filter: alpha(opacity=100);
+  	width: 98%;
+	}
+}
+
+@keyframes clipAnimation
+{
+0% {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	width: 0%;
+}
+100% {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	width: 98%;
+	}
+}
+
+.foregroundFill
+{
+	background-color: rgb(00, 126, 256);
+	width: 1%;
+	height: 12px;
+	border-radius: 5px;
+	top: -0.5px;
+}
+
+.hide .bookProgressSlider
+{
+	top: 500px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	clip: rect(0px, 0px, 0px, 40px);
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+.bookProgressSlider #background_fill_0 #background_fill_1,
+.bookProgressSlider #background_fill_0 #background_fill_1 #background_fill_2
+{
+	border-radius: 15px;
+	height: 19px;
+	width: 100%;
+	box-shadow: 1px 6px 20px -6px rgba(0,0,0,0.75);
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+.bookProgressSlider #background_fill_0 #background_fill_1 #background_fill_2
+{
+	height: 12px;
+	margin: 4px;
+	width: 98%;
+	top: -0.5px;
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+#progressCircle
+{
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+	width: 26px;
+	height: 26px;
+	top: 11px;
+	background: url('/artwork/html5/bookplayer/theme/progress_circle.png') no-repeat center center !important;
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+	pointer-events: visible
+	cursor: pointer;
+	cursor: hand;
+}
+
+.progressTime
+{
+	position: absolute;
+	bottom: -18px;
+	right: 0;
+	color: #00264d;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "abcmouse-sans", Arial, Helvetica, sans-serif;
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+.progressTime.opacityControl
+{
+	opacity: 0;
+	filter: alpha(opacity=0);
+
+	-webkit-animation: timeAnimation 0.1s;
+	animation: timeAnimation 0.1s;
+	-ms-animation: timeAnimation 0.1s;
+
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-ms-animation-fill-mode:forwards;
+}
+
+.progressTime.init {
+	left: 6px;
+}
+
+.progressTime.fim {
+	right: 14px;
+}
+
+@-webkit-keyframes timeAnimation
+{
+  0% {
+  	opacity: 0;
+  	filter: alpha(opacity=0);
+  }
+  100% {
+  	opacity: 1;
+  	filter: alpha(opacity=100);
+	}
+}
+
+@keyframes timeAnimation
+{
+  0% {
+  	opacity: 0;
+  	filter: alpha(opacity=0);
+  }
+  100% {
+  	opacity: 1;
+  	filter: alpha(opacity=100);
+	}
+}
+
+.init
+{
+	left: 0;
+	right: auto;
+}
+
+#slowerButton
+{
+	left: 590px;
+	background: url('/artwork/html5/bookplayer/theme/slower_icon.png');
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+#fasterButton
+{
+	left: 590px;
+	background: url('/artwork/html5/bookplayer/theme/fast_icon.png');
+	-webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+#feedbackShadow
+{
+	background-image: url('/artwork/html5/bookplayer/theme/pausetoread_fbshadow.png');
+	opacity : 0.0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition:all 100ms ease-out;
+  transition:all 100ms ease-out;
+  -webkit-transform: translate3d(0, 0, 0); /* force hardware to solve render issues on Safari*/
+	transform: translate3d(0, 0, 0);
+}
+
+#feedbackShadow.pause
+{
+	opacity : 0.2;
+  width: 100%;
+  height: 100%;
+  -webkit-transition:all 100ms ease-out;
+  transition:all 100ms ease-out;
+}
+
+#pauseToread
+{
+	background-image: url('/artwork/html5/bookplayer/theme/pausetoread_icon.png');
+	left: 670px;
+}
+
+#glossaryButton
+{
+	left: 745px;
+}
+
+#settingButton
+{
+	left: 822px;
+}
+
+/* book resize on hud move */
+#bookContainer.resizedBook
+{
+  top: 35px;
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05) rotate(0.0001deg);
+
+  -webkit-transform-origin: 0,0;
+  -ms-transform-origin: 0,0;
+  transform-origin: 0,0;
+  -moz-transform-origin:0,0;
+}
+
+.bookResizeTransition
+{
+	-webkit-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+}
+
+/* settings box*/
+.settingsBox
+{
+	width: 75px;
+	position: absolute;
+	bottom: 92px;
+	left: 90%;
+	z-index: 102;
+	background-color: #fff;
+	border: 3px solid #007eff;
+	border-radius: 15px;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	height: 350px;
+	pointer-events: auto;
+	-webkit-transition-property: opacity, height;
+	transition-property: opacity, height;
+	-webkit-transition-duration: 200ms, 400ms;
+	transition-duration: 200ms, 400ms;
+	-webkit-transition-delay: 0ms, 200ms;
+	transition-delay: 0ms, 200ms;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.settingsBox.blue
+{
+	background-color: #80d7ff;
+}
+
+.SKILLCOVERFRONT {
+
+ -ms-transform: skew(0deg,-2deg); /* IE 9 */
+ -webkit-transform: skew(0deg,-2deg); /* Safari */
+ transform: skew(0deg,-2deg);
+}
+
+.SKILLCOVERBACK {
+
+ -ms-transform: skew(0deg,2deg); /* IE 9 */
+ -webkit-transform: skew(0deg,2deg); /* Safari */
+ transform: skew(0deg,2deg);
+}
+
+.settingsBox.hide
+{
+	height: 1px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: default;
+	pointer-events: none;
+
+	-webkit-transition-property: height, opacity;
+
+	transition-property: height, opacity;
+	-webkit-transition-duration: 500ms, 300ms;
+	transition-duration: 500ms, 300ms;
+	-webkit-transition-delay: 0ms, 500ms;
+	transition-delay: 0ms, 500ms;
+}
+
+.hide .link
+{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 300px;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+.boxBody
+{
+	width: 90%;
+	display: block;
+	margin: 0;
+	position: absolute;
+	left:4px;
+	height: 99%;
+	top:1%;
+	overflow: hidden;
+}
+
+.boxArrow
+{
+	z-index: 102;
+	width: 42px;
+	left: 50%;
+	margin-left: -25px;
+	position: absolute;
+	bottom: -23px;
+}
+
+.boxArrow img
+{ /* prevents fluctuation while pop up transitions */
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
+  image-rendering: optimizeQuality;
+}
+
+.list-color
+{
+	margin-top: 3px;
+	width: 100%;
+	display: block;
+	list-style: none;
+}
+
+.list-color li
+{
+	width: 100%;
+	display: block;
+	padding: 5px 0;
+}
+
+.hide .list-color .link
+{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 600px;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+.list-color .link
+{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #ff0000;
+	font-family: "abcmouse-sans";
+	display: block;
+	margin: 0 auto;
+	border-radius: 100%;
+	border: 2px solid #007eff;
+	cursor: pointer;
+	cursor: hand;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+.list-color .yellow
+{
+	transition-delay: 900ms;
+	-webkit-transition-delay: 900ms;
+	-moz-transition-delay: 900ms;
+	-o-transition-delay: 900ms;
+	background-color: #fdf558;
+	/*background-color: #fef667;   old color, changed to match colors from BAT*/
+}
+
+.list-color .green
+{
+	transition-delay: 800ms;
+	-webkit-transition-delay: 800ms;
+	-moz-transition-delay: 800ms;
+	-o-transition-delay: 800ms;
+	background-color: #a0cb69;
+	/*background-color: #6cc642;   old color, changed to match colors from BAT*/
+}
+
+.list-color .pink
+{
+	transition-delay: 700ms;
+	-webkit-transition-delay: 700ms;
+	-moz-transition-delay: 700ms;
+	-o-transition-delay: 700ms;
+	background-color: #f0666e;
+	/*background-color: #fc5580;   old color, changed to match colors from BAT*/
+}
+
+.list-color .blue
+{
+	transition-delay: 600ms;
+	-webkit-transition-delay: 600ms;
+	-moz-transition-delay: 600ms;
+	-o-transition-delay: 600ms;
+	background-color: #8eceec;
+	/*background-color: #a6e7ff;   old color, changed to match colors from BAT*/
+}
+
+.list-color .white
+{
+	transition-delay: 500ms;
+	-webkit-transition-delay: 500ms;
+	-moz-transition-delay: 500ms;
+	-o-transition-delay: 500ms;
+	background-color: #fff;
+}
+
+.list-color .off
+{
+	transition-delay: 400ms;
+	-webkit-transition-delay: 400ms;
+	-moz-transition-delay: 400ms;
+	-o-transition-delay: 400ms;
+	background-color: transparent;
+	border: 0;
+}
+
+.list-color .selected img
+{
+	box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.75);
+}
+
+.list-color .selected
+{
+	box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.75);
+}
+
+.list-off
+{
+  border-radius: 25px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.noDelay
+{
+	transition-delay: 0ms !important;
+	-webkit-transition-delay: 0ms !important;
+	-moz-transition-delay: 0ms !important;
+	-o-transition-delay: 0ms !important;
+}
+
+/* classes used to create small delays on HUD */
+.delay1
+{
+	transition-delay: 500ms;
+	-webkit-transition-delay: 500ms;
+	-moz-transition-delay: 500ms;
+	-o-transition-delay: 500ms;
+	-ms-trasition-delay: 500ms;
+}
+
+.delay2
+{
+	transition-delay: 400ms;
+	-webkit-transition-delay: 400ms;
+	-moz-transition-delay: 400ms;
+	-o-transition-delay: 400ms;
+	-ms-trasition-delay: 400ms;
+}
+
+.delay3
+{
+	transition-delay: 300ms;
+	-webkit-transition-delay: 300ms;
+	-moz-transition-delay: 300ms;
+	-o-transition-delay: 300ms;
+	-ms-trasition-delay: 300ms;
+}
+
+.delay4
+{
+	transition-delay: 200ms;
+	-webkit-transition-delay: 200ms;
+	-moz-transition-delay: 200ms;
+	-o-transition-delay: 200ms;
+	-ms-trasition-delay: 200ms;
+}
+
+.delay5
+{
+	transition-delay: 100ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	-o-transition-delay: 100ms;
+	-ms-trasition-delay: 100ms;
+
+}
+
+.delay6
+{
+	transition-delay: 0ms;
+	-webkit-transition-delay: 0ms;
+	-moz-transition-delay: 0ms;
+	-o-transition-delay: 0ms;
+	-ms-trasition-delay: 0ms;
+}
+
+.forceCrispyRender
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.forceCrispyRender img
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.ignoreTransitions
+{
+	transition: all 0ms ease-out !important;
+	-webkit-transition: all 0ms ease-out !important;
+	-moz-transition: all 0ms ease-out !important;
+	-o-transition: all 0ms ease-out !important;
+}
+
+#centerShadow {
+	/*transition: opacity 200ms ease-out;*/
+	/*-webkit-transition: opacity 200ms ease-out;*/
+	/*-moz-transition: opacity 200ms ease-out;*/
+	/*-o-transition: opacity 200ms ease-out;*/
+}

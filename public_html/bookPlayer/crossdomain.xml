@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<cross-domain-policy>
+ <site-control permitted-cross-domain-policies="master-only" />
+ <allow-access-from domain="*.abcmouse.com" secure="false" />
+ <allow-access-from domain="*.abcmouse.cn" secure="false" />
+ <allow-access-from domain="*.abcmouse.tw" secure="false" />
+ <allow-access-from domain="*.abcmouse.hk" secure="false" />
+ <allow-access-from domain="*.abcmouse.es" secure="false" />
+ <allow-access-from domain="*.abcmouse.fr" secure="false" />
+ <allow-access-from domain="*.abcmouse.mx" secure="false" />
+ <allow-access-from domain="*.abcmouse.co.kr" secure="false" />
+</cross-domain-policy>

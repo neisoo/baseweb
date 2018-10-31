@@ -1,0 +1,43 @@
+/* .sdm_grid {
+	display: block;
+	border-collapse: collapse;
+	border-spacing: 1px;
+	height: 100%;
+	width: 100%;
+}
+
+.sdm_grid_header {
+	display: block;
+	position:relative;
+}
+
+.sdm_grid_row {
+	display: block;
+	clear:both;
+	height:12%;
+	position:relative;
+	margin-top: -1px;
+}
+
+.sdm_grid_data{
+	display:block;
+	position:relative;
+}
+
+.sdm_grid_cell {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 100%;
+	padding: 1px;
+	overflow: hidden;
+	box-sizing: border-box;
+	border: 1px solid black;
+	margin-left:-1px;
+	margin-top:-1px;
+}
+
+.sdm_grid_cell div {
+	height:100%;
+	display: block;
+} */

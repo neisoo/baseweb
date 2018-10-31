@@ -1,0 +1,160 @@
+/*------------- top_panel ------------------*/
+
+#top_panel {
+	display : none;
+	position:fixed;
+	top:0;
+}
+
+#sitetitle {
+	font-weight: bold;
+}
+
+#loginName{
+	display:none;
+	font-weight: bold;
+}
+
+#logout{
+	display:none;
+	font-weight: bold;
+}
+
+/*------------- end of top_panel ------------------*/
+
+/*----------------- Menu ------------------*/
+#menu {
+  display : none;
+}
+/*-----------------end of menu -----------------*/
+
+/* ----------MainContent ----------------*/
+
+/*
+#MainContent {
+	float: left;
+	width: 100%;
+}
+*/
+
+.SDMGrid {
+	margin:auto;
+	width:800px; /*should same with $config["SDMGrid"]["width"]*/
+}
+
+#loading_div{
+	display:none;
+}
+
+.title{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+/*--- Device ---*/
+.div_deviceDetail_row{
+	display:inline-block;
+}
+
+.div_deviceDetail_title{
+	text-align: right;
+	padding: 5px;
+	width: 100px;
+	display:inline-block;
+}
+
+.div_deviceDetail_col{
+	padding: 5px;
+	width: 150px;
+	display:inline-block;
+}
+
+.div_deviceDetail{
+    height: 108px;
+}
+
+.div_deviceDetail_left{
+	display: inline-block;
+	width: 600px
+}
+
+.div_deviceDetail_right{
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+}
+
+.div_deviceDetailsWithStatusLog_tableFrame{
+    width: 1280px;
+    padding-left: 10px;
+}
+
+.div_deviceDetailsWithInstalledApp_tableFrame{
+    width: 1090px;
+    padding-left: 10px;
+}
+
+.div_deviceDetailsWithCommandsHistory_tableFrame{
+    width: 1060px;
+    padding-left: 10px;c
+}
+
+.div_button{
+    margin-bottom: 20px;
+    margin-top: 6px;
+    padding-left: 15px;
+}
+
+.div_dialog_row{
+	display:inline-block;
+}
+.div_dialog_title{
+	text-align: right;
+	padding: 5px;
+	width: 120px;
+	display:inline-block;
+}
+
+.div_dialog_col{
+	padding: 5px;
+	width: 270px;
+	display:inline-block;
+}
+
+.div_dialog_volume_title{
+	text-align: right;
+	padding: 5px;
+	width: 200px;
+	display:inline-block;
+}
+
+.div_dialog_volume_col{
+	padding: 5px;
+	width: 310px;
+	display:inline-block;
+}
+
+.div_maxVolumeTitle{
+	margin-left: 10px;
+    width: 56px;
+	display: inline-block;
+}
+
+/* ---------------end of MainContent ----------------*/
+.css_main_content {
+	padding: 20px;
+}
+
+.css_normal_title {
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+}
+
+.uk-pagination {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    font-size: 0;
+}

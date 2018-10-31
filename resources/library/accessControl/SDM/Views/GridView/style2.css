@@ -1,0 +1,40 @@
+.sdm_grid {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 1px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.sdm_grid_header {
+	display: block;
+	position:relative;
+}
+
+.sdm_grid_row {
+	display: table-row;
+	clear:both;
+	height:100%;
+	position:relative;
+}
+
+.sdm_grid_data{
+	display:block;
+	position:relative;
+}
+
+.sdm_grid_cell {
+	display: block;
+	float: left;
+	width: 80px;
+	height: 100%;
+	padding: 1px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	overflow: hidden;
+}
+
+.sdm_grid_cell div {
+	height:100%;
+	display: block;
+}
